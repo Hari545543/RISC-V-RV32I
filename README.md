@@ -5,6 +5,8 @@ RV32I is one of the variants of RISC-V, which is a 32-bit implementation of the 
 
 The RV32I ISA includes a set of 32 general-purpose registers, each of which is 32 bits wide. The instruction set includes basic arithmetic and logical operations, as well as load and store instructions for accessing memory. The RV32I ISA also includes conditional branches and jumps, which are used to control program flow.
 
+**Note:** `top_level_risc.v` contains the Top Level Module.
+
 A 5-stage pipeline RISC-V RV32I has been implemented here.
 
 ## Overview
